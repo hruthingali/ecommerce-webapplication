@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_IMAGE = 'my-ecommerce-backend'
         DOCKER_TAG = "${BUILD_NUMBER}"
-        REGISTRY = 'barathkumar29/my-ecommerce'
+        REGISTRY = 'hruthingali/my-ecommerce'
     }
     
     stages {
